@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #e8c3d6;
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 100px;
+}
+
+nav ul li a {
+    color: rgb(67, 8, 95);
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+.profile-img {
+    width: 100%; 
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.text-box {
+    border: 1px solid #da377d;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #e7d5de;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #e8c3d6;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.content img {
+    max-width: 200px; /* Resmin maksimum genişliği */
+    border-radius: 10px; /* Kenarları yuvarlatma */
+}
+.content div {
+    max-width: 500px; /* Yazının maksimum genişliği */
+    margin-left: 20px; /* Fotoğraf ile yazı arasında boşluk */
+}
+
+.video-content {
+    display: flex;
+    align-items: flex-start; /* İçerikleri üst hizaya getir */
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.video-content div {
+    max-width: 500px; /* Video yazısının maksimum genişliği */
+    margin-right: 20px; /* Metin ile video arasında boşluk */
+}
+.video-content iframe {
+    max-width: 300px; /* Videonun maksimum genişliği */
+    border-radius: 10px; /* Kenarları yuvarlatma */
+    margin-left: 50px; /* Videoyu sola kaydırmak için ek boşluk */
+}
+
+.contact-info {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.contact-info h2 {
+    margin-top: 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
